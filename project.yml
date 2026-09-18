@@ -1,0 +1,49 @@
+name: PasswordCrackLab
+options:
+  bundleIdPrefix: com.coursework
+  deploymentTarget:
+    iOS: "16.0"
+  createIntermediateGroups: true
+
+targets:
+  PasswordCrackLab:
+    type: application
+    platform: iOS
+    sources:
+      - path: PasswordCrackLab
+        excludes:
+          - "Info.plist"
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.coursework.passwordcracklab
+        PRODUCT_NAME: Password Crack Lab
+        SWIFT_VERSION: "5.0"
+        TARGETED_DEVICE_FAMILY: "1,2"
+        GENERATE_INFOPLIST_FILE: NO
+        INFOPLIST_FILE: PasswordCrackLab/Info.plist
+        ENABLE_PREVIEWS: YES
+
+  PasswordCrackLabUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    sources:
+      - path: PasswordCrackLabUITests
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.coursework.passwordcracklab.uitests
+        SWIFT_VERSION: "5.0"
+        GENERATE_INFOPLIST_FILE: YES
+        TEST_TARGET_NAME: PasswordCrackLab
+
+schemes:
+  PasswordCrackLab:
+    build:
+      targets:
+        PasswordCrackLab: all
+        PasswordCrackLabUITests: [test]
+    run:
+      config: Debug
+    test:
+      config: Debug
+      targets:
+        - PasswordCrackLabUITests

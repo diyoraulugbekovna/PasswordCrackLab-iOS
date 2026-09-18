@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D200AD7AD080B04AADCFD33 /* ResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E73A6B494E76C5CF7367A6E /* ResultsView.swift */; };
+		25393090094F9DDC30C934A0 /* EmailCandidates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42757795578D6B38F2970233 /* EmailCandidates.swift */; };
+		3887A44FBC5CDD0C5E8B32C4 /* CrackPhase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A221C7EF357397EC3B93B07 /* CrackPhase.swift */; };
+		3A9A7054E19B81AA793A7A5E /* AnalyzingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7682837BA2D891A74340C7B /* AnalyzingView.swift */; };
+		4D8B717EABF20ED689D8ABB2 /* PasswordCrackLabApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938878C3AD820C0794979C9D /* PasswordCrackLabApp.swift */; };
+		56D9A69C2A3FF1CE0E898DFC /* PBKDF2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B993A99D31D100E6014C84 /* PBKDF2.swift */; };
+		58A6FCA8719D67F4609B02A8 /* WordlistLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72D67E70A92C05ABEB15479 /* WordlistLoader.swift */; };
+		6214957A2ED5295BAE0308D4 /* CrackOutcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039B2B4CB9BB90A5D75E1596 /* CrackOutcome.swift */; };
+		7045B065B940F36DB250358B /* PrivacyNoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61770EE0E87F57A742A7F17 /* PrivacyNoteView.swift */; };
+		7322CA78C99A88B7332CCC84 /* HashMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7459F33AF08644C42BB1A235 /* HashMode.swift */; };
+		8507F6C1A8677871A41B178A /* StoragePreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0731F632F7F938A5F0BC97 /* StoragePreviewView.swift */; };
+		88BCDF700321F03B194C3F22 /* PasswordCrackLabUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA621ABC70A05F769D88E6C7 /* PasswordCrackLabUITests.swift */; };
+		9235727F0B6E785B9B4992A2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AA3AF074806F6A780C4026 /* ContentView.swift */; };
+		A24865F35746586AC8570B64 /* common_passwords.txt in Resources */ = {isa = PBXBuildFile; fileRef = D0B2573D812CCCDA64CC39D3 /* common_passwords.txt */; };
+		A7305ECF309C70E86E279995 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56243D8CEF26894123B2F882 /* LoginView.swift */; };
+		B81B0DCED907815BA2D1061F /* InfoDisclosureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBFFEB8000204FDF09E83AC /* InfoDisclosureView.swift */; };
+		BB05C4D0808A195DAFB0FB0A /* CrackingEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8B73009AF284CCF0BDA05A /* CrackingEngine.swift */; };
+		BCF8E31E4B98BA52C2C220CD /* MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2777DD0346E7B20160AE23 /* MD5.swift */; };
+		C73971A082E49D840417C373 /* DurationFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4BF90D2B2436D865A5CF62 /* DurationFormatter.swift */; };
+		D3FB7CB2B0DCE45DE8DD56A4 /* Mangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5407DD62814580CAE2F9444 /* Mangle.swift */; };
+		D5E92CADE80DEAF82C7CCBFC /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1677FD161049BD920A67404 /* Theme.swift */; };
+		D764E9E90DF84A36764DB1E6 /* CrackSessionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D84768DBFEE91C80FB6226 /* CrackSessionViewModel.swift */; };
+		D894F07A9B079FF7F1D23C79 /* HashingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE3E54EF8AB35E2EC3C59BE /* HashingService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		039B2B4CB9BB90A5D75E1596 /* CrackOutcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrackOutcome.swift; sourceTree = "<group>"; };
+		1E73A6B494E76C5CF7367A6E /* ResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsView.swift; sourceTree = "<group>"; };
+		26B993A99D31D100E6014C84 /* PBKDF2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PBKDF2.swift; sourceTree = "<group>"; };
+		2A221C7EF357397EC3B93B07 /* CrackPhase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrackPhase.swift; sourceTree = "<group>"; };
+		42757795578D6B38F2970233 /* EmailCandidates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailCandidates.swift; sourceTree = "<group>"; };
+		49AA3AF074806F6A780C4026 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		56243D8CEF26894123B2F882 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		5F8B73009AF284CCF0BDA05A /* CrackingEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrackingEngine.swift; sourceTree = "<group>"; };
+		6F4BF90D2B2436D865A5CF62 /* DurationFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DurationFormatter.swift; sourceTree = "<group>"; };
+		7459F33AF08644C42BB1A235 /* HashMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashMode.swift; sourceTree = "<group>"; };
+		85D84768DBFEE91C80FB6226 /* CrackSessionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrackSessionViewModel.swift; sourceTree = "<group>"; };
+		938878C3AD820C0794979C9D /* PasswordCrackLabApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordCrackLabApp.swift; sourceTree = "<group>"; };
+		95FE977EC09FFDDF00F27971 /* PasswordCrackLab.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = PasswordCrackLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		97EBD8D412F6FB059FA7C5DD /* PasswordCrackLabUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = PasswordCrackLabUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A61770EE0E87F57A742A7F17 /* PrivacyNoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyNoteView.swift; sourceTree = "<group>"; };
+		BA621ABC70A05F769D88E6C7 /* PasswordCrackLabUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordCrackLabUITests.swift; sourceTree = "<group>"; };
+		BF2777DD0346E7B20160AE23 /* MD5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MD5.swift; sourceTree = "<group>"; };
+		C5407DD62814580CAE2F9444 /* Mangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mangle.swift; sourceTree = "<group>"; };
+		CDBFFEB8000204FDF09E83AC /* InfoDisclosureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoDisclosureView.swift; sourceTree = "<group>"; };
+		D0B2573D812CCCDA64CC39D3 /* common_passwords.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = common_passwords.txt; sourceTree = "<group>"; };
+		D1677FD161049BD920A67404 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		DA0731F632F7F938A5F0BC97 /* StoragePreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoragePreviewView.swift; sourceTree = "<group>"; };
+		E72D67E70A92C05ABEB15479 /* WordlistLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordlistLoader.swift; sourceTree = "<group>"; };
+		E7682837BA2D891A74340C7B /* AnalyzingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyzingView.swift; sourceTree = "<group>"; };
+		FFE3E54EF8AB35E2EC3C59BE /* HashingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashingService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		031CD20125C1657042A66FB5 /* PasswordCrackLab */ = {
+			isa = PBXGroup;
+			children = (
+				938878C3AD820C0794979C9D /* PasswordCrackLabApp.swift */,
+				3F3D52F52ADBDB39DD0604C4 /* Crypto */,
+				50C073BD100B02E6E0E035DF /* Models */,
+				A6E1CDB5F440714D1DC564EA /* Resources */,
+				6B2E72F4CF39AADAC1FDDD4C /* ViewModels */,
+				09DF9003A73098E0969A8CB4 /* Views */,
+			);
+			path = PasswordCrackLab;
+			sourceTree = "<group>";
+		};
+		09DF9003A73098E0969A8CB4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E7682837BA2D891A74340C7B /* AnalyzingView.swift */,
+				49AA3AF074806F6A780C4026 /* ContentView.swift */,
+				CDBFFEB8000204FDF09E83AC /* InfoDisclosureView.swift */,
+				56243D8CEF26894123B2F882 /* LoginView.swift */,
+				A61770EE0E87F57A742A7F17 /* PrivacyNoteView.swift */,
+				1E73A6B494E76C5CF7367A6E /* ResultsView.swift */,
+				DA0731F632F7F938A5F0BC97 /* StoragePreviewView.swift */,
+				D1677FD161049BD920A67404 /* Theme.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3F3D52F52ADBDB39DD0604C4 /* Crypto */ = {
+			isa = PBXGroup;
+			children = (
+				5F8B73009AF284CCF0BDA05A /* CrackingEngine.swift */,
+				42757795578D6B38F2970233 /* EmailCandidates.swift */,
+				FFE3E54EF8AB35E2EC3C59BE /* HashingService.swift */,
+				C5407DD62814580CAE2F9444 /* Mangle.swift */,
+				BF2777DD0346E7B20160AE23 /* MD5.swift */,
+				26B993A99D31D100E6014C84 /* PBKDF2.swift */,
+				E72D67E70A92C05ABEB15479 /* WordlistLoader.swift */,
+			);
+			path = Crypto;
+			sourceTree = "<group>";
+		};
+		50C073BD100B02E6E0E035DF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				039B2B4CB9BB90A5D75E1596 /* CrackOutcome.swift */,
+				2A221C7EF357397EC3B93B07 /* CrackPhase.swift */,
+				6F4BF90D2B2436D865A5CF62 /* DurationFormatter.swift */,
+				7459F33AF08644C42BB1A235 /* HashMode.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		585544F12F975631D3E1F33B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95FE977EC09FFDDF00F27971 /* PasswordCrackLab.app */,
+				97EBD8D412F6FB059FA7C5DD /* PasswordCrackLabUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B2E72F4CF39AADAC1FDDD4C /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				85D84768DBFEE91C80FB6226 /* CrackSessionViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A6E1CDB5F440714D1DC564EA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D0B2573D812CCCDA64CC39D3 /* common_passwords.txt */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A710BD4E56AF8D26501B52E7 /* PasswordCrackLabUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BA621ABC70A05F769D88E6C7 /* PasswordCrackLabUITests.swift */,
+			);
+			path = PasswordCrackLabUITests;
+			sourceTree = "<group>";
+		};
+		E8187EEDB0688FBCB421DF20 = {
+			isa = PBXGroup;
+			children = (
+				031CD20125C1657042A66FB5 /* PasswordCrackLab */,
+				A710BD4E56AF8D26501B52E7 /* PasswordCrackLabUITests */,
+				585544F12F975631D3E1F33B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B94418856B599A5F2D613FD /* PasswordCrackLab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE310C73D2C199913F01AFC1 /* Build configuration list for PBXNativeTarget "PasswordCrackLab" */;
+			buildPhases = (
+				FD6010092C21A64CA966604B /* Sources */,
+				7A8814CDC2126FBAE2630E70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PasswordCrackLab;
+			packageProductDependencies = (
+			);
+			productName = PasswordCrackLab;
+			productReference = 95FE977EC09FFDDF00F27971 /* PasswordCrackLab.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C570C6B515B5F8C0FA5C099B /* PasswordCrackLabUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D8CDB01C6059508C275424E /* Build configuration list for PBXNativeTarget "PasswordCrackLabUITests" */;
+			buildPhases = (
+				9F985A259E1EC8442A871E53 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PasswordCrackLabUITests;
+			packageProductDependencies = (
+			);
+			productName = PasswordCrackLabUITests;
+			productReference = 97EBD8D412F6FB059FA7C5DD /* PasswordCrackLabUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9C603F8F22DF8237A42BB74 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					C570C6B515B5F8C0FA5C099B = {
+						TestTargetID = 8B94418856B599A5F2D613FD;
+					};
+				};
+			};
+			buildConfigurationList = 9F59DBB817BD8A0D1177CBCC /* Build configuration list for PBXProject "PasswordCrackLab" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = E8187EEDB0688FBCB421DF20;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 585544F12F975631D3E1F33B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B94418856B599A5F2D613FD /* PasswordCrackLab */,
+				C570C6B515B5F8C0FA5C099B /* PasswordCrackLabUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A8814CDC2126FBAE2630E70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A24865F35746586AC8570B64 /* common_passwords.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F985A259E1EC8442A871E53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88BCDF700321F03B194C3F22 /* PasswordCrackLabUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD6010092C21A64CA966604B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A9A7054E19B81AA793A7A5E /* AnalyzingView.swift in Sources */,
+				9235727F0B6E785B9B4992A2 /* ContentView.swift in Sources */,
+				6214957A2ED5295BAE0308D4 /* CrackOutcome.swift in Sources */,
+				3887A44FBC5CDD0C5E8B32C4 /* CrackPhase.swift in Sources */,
+				D764E9E90DF84A36764DB1E6 /* CrackSessionViewModel.swift in Sources */,
+				BB05C4D0808A195DAFB0FB0A /* CrackingEngine.swift in Sources */,
+				C73971A082E49D840417C373 /* DurationFormatter.swift in Sources */,
+				25393090094F9DDC30C934A0 /* EmailCandidates.swift in Sources */,
+				7322CA78C99A88B7332CCC84 /* HashMode.swift in Sources */,
+				D894F07A9B079FF7F1D23C79 /* HashingService.swift in Sources */,
+				B81B0DCED907815BA2D1061F /* InfoDisclosureView.swift in Sources */,
+				A7305ECF309C70E86E279995 /* LoginView.swift in Sources */,
+				BCF8E31E4B98BA52C2C220CD /* MD5.swift in Sources */,
+				D3FB7CB2B0DCE45DE8DD56A4 /* Mangle.swift in Sources */,
+				56D9A69C2A3FF1CE0E898DFC /* PBKDF2.swift in Sources */,
+				4D8B717EABF20ED689D8ABB2 /* PasswordCrackLabApp.swift in Sources */,
+				7045B065B940F36DB250358B /* PrivacyNoteView.swift in Sources */,
+				0D200AD7AD080B04AADCFD33 /* ResultsView.swift in Sources */,
+				8507F6C1A8677871A41B178A /* StoragePreviewView.swift in Sources */,
+				D5E92CADE80DEAF82C7CCBFC /* Theme.swift in Sources */,
+				58A6FCA8719D67F4609B02A8 /* WordlistLoader.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		62429F6C8F33475018D5E5ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = PasswordCrackLab/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.coursework.passwordcracklab;
+				PRODUCT_NAME = "Password Crack Lab";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7195C5BA83FD521962F9A5BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = PasswordCrackLab/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.coursework.passwordcracklab;
+				PRODUCT_NAME = "Password Crack Lab";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C24AE898B576191E85FC6ABB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.coursework.passwordcracklab.uitests;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PasswordCrackLab;
+			};
+			name = Debug;
+		};
+		D8AB76DA847D5977AFF8298E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		FCE04E9C74834A1FA2E7FB83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FF38A14F9EDB1163B45C9412 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.coursework.passwordcracklab.uitests;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PasswordCrackLab;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D8CDB01C6059508C275424E /* Build configuration list for PBXNativeTarget "PasswordCrackLabUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C24AE898B576191E85FC6ABB /* Debug */,
+				FF38A14F9EDB1163B45C9412 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9F59DBB817BD8A0D1177CBCC /* Build configuration list for PBXProject "PasswordCrackLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCE04E9C74834A1FA2E7FB83 /* Debug */,
+				D8AB76DA847D5977AFF8298E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FE310C73D2C199913F01AFC1 /* Build configuration list for PBXNativeTarget "PasswordCrackLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7195C5BA83FD521962F9A5BD /* Debug */,
+				62429F6C8F33475018D5E5ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9C603F8F22DF8237A42BB74 /* Project object */;
+}
